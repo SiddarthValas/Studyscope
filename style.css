@@ -1,0 +1,73 @@
+/* Reset default colors */
+body, .stApp {
+    background-color: #2b0f0f !important;
+    color: #fceabb !important;
+    font-family: 'Segoe UI', sans-serif;
+  }
+  
+  /* Header */
+  header {
+    background-color: #1d0b0b !important;
+  }
+  
+  /* Sidebar */
+  section[data-testid="stSidebar"] {
+    background-color: #1a0a0a !important;
+    color: #fceabb !important;
+  }
+  
+  section[data-testid="stSidebar"] .stButton > button {
+    background-color: #a57b0a !important;
+    color: #2b0f0f !important;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #a57b0a !important;
+    color: #710c04 !important;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 0.6em 1.2em;
+    border: none;
+  }
+  
+  /* Inputs */
+  input, textarea, .stTextInput > div > div > input {
+    background-color: #3b1a1a !important;
+    color: #fceabb !important;
+    border: 1px solid #a57b0a !important;
+  }
+  
+  /* Markdown text */
+  .stMarkdown {
+    color: #fceabb !important;
+  }
+  
+  /* Tabs, Radio buttons, etc. */
+  div[role="radiogroup"] > label {
+    background-color: #3a1919 !important;
+    color: #fceabb !important;
+    border: 1px solid #a57b0a !important;
+    border-radius: 8px;
+    margin: 0.3em;
+  }
+  
+  div[role="radiogroup"] > label[data-selected="true"] {
+    background-color: #a57b0a!important;
+    color: #2b0f0f !important;
+  }
+  
+  /* Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #1d0b0b;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #a57b0a;
+    border-radius: 4px;
+  }
