@@ -1,8 +1,8 @@
 streamlit
 faiss-cpu
-pandas
-numpy
+sentence-transformers
 PyPDF2
 openai
 tiktoken
-#
+numpy
+pandas
