@@ -1,8 +1,9 @@
 streamlit
 faiss-cpu
 sentence-transformers
-PyPDF2
 openai
+PyPDF2
 tiktoken
 numpy
 pandas
+PyMuPDF
