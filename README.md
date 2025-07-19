@@ -1,7 +1,7 @@
 
-#StudyScope
+# StudyScope
 
-##AI-Powered Study Companion for Modern Learners
+## AI-Powered Study Companion for Modern Learners
 
 ⸻
 
